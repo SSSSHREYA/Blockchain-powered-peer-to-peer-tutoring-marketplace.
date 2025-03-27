@@ -1,0 +1,15 @@
+[package]
+name = "Blockchain-powered"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Tutoring = "0x33446b59a37094734b8df0c6f8dd8d4f6b60ed5310ca756ff43b52240ffabbea"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
